@@ -46,7 +46,7 @@ for(c = 0; c < brickColCount; c++) {
 // Draw a red square on the canvas
 function draw() {
     clearCanvas();
-    var isBallCollied = checkForCollision();
+    var isBallCollied = checkForWallorPaddleCollision();
     if(isBallCollied) {
         // ballColor = getRandomColor();
     }
